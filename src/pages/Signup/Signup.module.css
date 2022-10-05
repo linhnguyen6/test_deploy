@@ -1,0 +1,41 @@
+:root {
+  --max-width: 1200px;
+  --color: #7fad39;
+}
+.container {
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding: 20px 0;
+}
+
+.container h2 {
+  font-weight: 700;
+}
+
+.container h3 {
+  color: var(--color);
+  font-weight: 600;
+}
+
+button.btn-signup {
+  background-color: var(--color);
+  padding: 9px 15px;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.box-signup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.box-signup div input {
+  width: 100%;
+}
+
+.form-input {
+  margin: 10px 0;
+}
