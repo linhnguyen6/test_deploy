@@ -20,7 +20,7 @@ const cx = classNames.bind(styles);
 const Header = () => {
   const menuItems = [
     {
-      page: "HOME",
+      page: "HOMEa",
       link: "",
     },
     {
